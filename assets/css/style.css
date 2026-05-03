@@ -183,9 +183,11 @@ p {
 .hero-image-card img {
   border-radius: 28px;
   box-shadow: var(--shadow);
-  min-height: 420px;
-  object-fit: cover;
+  max-height: 420px;
+  object-fit: contain;
   width: 100%;
+  background: var(--white);
+  padding: 1.5rem;
 }
 
 .hero-buttons {

@@ -75,21 +75,20 @@ h4 {
   margin-top: 0;
   line-height: 1.2;
   color: var(--plum);
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   font-size: clamp(2.3rem, 5vw, 4.4rem);
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: clamp(1.8rem, 4vw, 2.8rem);
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 p {
@@ -117,8 +116,8 @@ p {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
   color: var(--plum);
 }
 
@@ -132,7 +131,7 @@ p {
 }
 
 .brand-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .site-nav {
@@ -142,8 +141,9 @@ p {
 }
 
 .site-nav a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
   color: var(--plum);
   position: relative;
 }
@@ -408,6 +408,6 @@ p {
 
   .brand-text {
     max-width: 180px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 }

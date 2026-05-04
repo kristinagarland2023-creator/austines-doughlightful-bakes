@@ -23,8 +23,16 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   color: var(--text);
-  background: linear-gradient(to bottom, #fffdfa, #fff6f7);
   line-height: 1.6;
+
+  /* ✨ BACKGROUND IMAGE */
+  background:
+    linear-gradient(rgba(255, 250, 248, 0.88), rgba(255, 246, 247, 0.88)),
+    url("assets/images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 img {

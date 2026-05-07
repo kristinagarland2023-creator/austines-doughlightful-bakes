@@ -338,6 +338,11 @@ p {
 .menu-card {
   padding: 1.1rem;
   border-left: 6px solid var(--teal);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
 }
 
 .menu-card p:last-child {
